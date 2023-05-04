@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+</head>
+<body>
+  <div class="container pt-10">
+    <h2 class="h2 fw-bold text-center mb-8">這些超酷的應用，<br class="d-sm-none">都來自 AI工具王</h2>
+    <form class="position-relative mb-4" role="search">
+      <label for=""><span class="material-icons position-absolute top-50 ms-8">search</span></label>
+      <input class="form-control border-radius py-5 ps-10 bg-light border-light" type="search" placeholder="輸入關鍵字搜尋" aria-label="Search">
+    </form>
+    <div class="filter d-flex justify-content-between align-items-center flex-wrap mb-9 mb-lg-8">
+      <div class="dropdown list-unstyled">
+        <button class="btn btn-outline-light text-black d-flex jusitify-content-center align-items-center dropdown-toggle px-8 py-5 mb-4 mb-lg-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          篩選
+          <span class="material-icons fs-8 ms-4 d-lg-none">filter_alt</span>
+          <span class="material-icons fs-8 ms-4 d-lg-inline d-none">tune</span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><span>AI模型</span></li>
+          <li><a class="dropdown-item" href="#">所有模型</a></li>
+          <li><a class="dropdown-item" href="#">卡卡</a></li>
+          <li><a class="dropdown-item" href="#">杰杰</a></li>
+          <li><a class="dropdown-item" href="#">淇淇</a></li>
+          <li><a class="dropdown-item" href="#">昊昊</a></li>
+          <hr>
+          <li><span>類型</span></li>
+          <li><a class="dropdown-item" href="#">所有類型</a></li>
+          <li><a class="dropdown-item" href="#">篩選項目1</a></li>
+          <li><a class="dropdown-item" href="#">篩選項目2</a></li>
+          <li><a class="dropdown-item" href="#">篩選項目3</a></li>
+          <li><a class="dropdown-item" href="#">篩選項目4</a></li>
+        </ul>
+      </div>
+      
+      <div class="dropdown list-unstyled order-lg-3 mb-4 mb-lg-0">
+        <button class="btn btn-outline-light text-black d-flex jusitify-content-center align-items-center dropdown-toggle px-8 py-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          由新到舊
+          <span class="material-icons fs-8 ms-4">expand_more</span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#" active>由新到舊</a></li>
+          <li><a class="dropdown-item" href="#">由舊到新</a></li>
+        </ul>
+      </div>
+
+      <div class="catergory d-flex list-unstyled text-decoration-none flex-nowrap">
+        <a class="btn me-2" href="#">全部</a>
+        <a class="btn" href="#">聊天</a>
+        <a class="btn" href="#">醒像變識</a>
+        <a class="btn" href="#">翻譯</a>
+        <a class="btn" href="#">行銷</a>
+        <a class="btn" href="#">客服</a>
+        <a class="btn" href="#">生產力</a>
+      </div>
+    </div>
+    
+    <div class="content row">
+      <div class="col-md-6 col-lg-4 mb-3 mb-md-6">
+        <div class="card border-light max-width h-100">
+          <a href="#" class="overflow-hidden rounded-top">
+            <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/9d0ceff5ed470b504331b8d897ea8518b8f163cd/2023web-camp/tool1.png" alt=""></a> 
+          <div class="header px-7 mb-auto">
+            <h3 class="fw-bold text-center mt-5 mb-3">Chatbot Builder</h3>
+            <p class="text-dark text-left">建立智能化的聊天機器人，解答常見問題、提供客戶支援、收集反饋等。</p>
+          </div>
+          <div class="card-category d-flex justify-content-between border-top border-bottom border-light px-7 py-5">
+            <span class="catergory fw-bold">AI 模型</span>
+            <span class="name">卡卡</span>
+          </div>
+          <div class="card-tag d-flex justify-content-between px-7 py-5">
+            <span class="tag">#聊天</span>
+            <a href="#"><span class="material-icons text-black">share</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-3 mb-md-6">
+        <div class="card border-light max-width h-100">
+          <a href="#" class="overflow-hidden rounded-top">
+            <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/9d0ceff5ed470b504331b8d897ea8518b8f163cd/2023web-camp/tool2.png" alt=""></a>
+          <div class="header px-7 mb-auto">
+            <h3 class="fw-bold text-center mt-5 mb-3">Image Recognition Platform</h3>
+            <p class="text-dark text-left">專業的圖像識別平台，識別圖像、分類、標記等。</p>
+          </div>
+          <div class="card-category d-flex justify-content-between border-top border-bottom border-light px-7 py-5">
+            <span class="catergory fw-bold">AI 模型</span>
+            <span class="name">杰杰</span>
+          </div>
+          <div class="card-tag d-flex justify-content-between px-7 py-5">
+            <span class="tag">#影像辨識</span>
+            <a href="#"><span class="material-icons text-black">share</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-3 mb-md-6">
+        <div class="card border-light max-width h-100">
+          <a href="#" class="overflow-hidden rounded-top">
+            <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/9d0ceff5ed470b504331b8d897ea8518b8f163cd/2023web-camp/tool3.png" alt=""></a>
+          <div class="header px-7 mb-auto">
+            <h3 class="fw-bold text-center mt-5 mb-3">Language Translation API</h3>
+            <p class="text-dark text-left">專業的語言翻譯 API，實現文本翻譯功能，支援多種格式的文本。</p>
+          </div>
+          <div class="card-category d-flex justify-content-between border-top border-bottom border-light px-7 py-5">
+            <span class="catergory fw-bold">AI 模型</span>
+            <span class="name">琪琪</span>
+          </div>
+          <div class="card-tag d-flex justify-content-between px-7 py-5">
+            <span class="tag">#翻譯</span>
+            <a href="#"><span class="material-icons text-black">share</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-3 mb-md-6">
+        <div class="card border-light max-width h-100">
+          <a href="#" class="overflow-hidden rounded-top">
+            <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/9d0ceff5ed470b504331b8d897ea8518b8f163cd/2023web-camp/tool4.png" alt=""></a>
+          <div class="header px-7 mb-auto">
+            <h3 class="fw-bold text-center mt-5 mb-3">Sentiment Analysis API</h3>
+            <p class="text-dark text-left">自動識別文本中的情感傾向，包括正向、負向和中性等。適用於情感分析、社交媒體監控、市場調查等。</p>
+          </div>
+          <div class="card-category d-flex justify-content-between border-top border-bottom border-light px-7 py-5">
+            <span class="catergory fw-bold">AI 模型</span>
+            <span class="name">昊昊</span>
+          </div>
+          <div class="card-tag d-flex justify-content-between px-7 py-5">
+            <span class="tag">#行銷</span>
+            <a href="#"><span class="material-icons text-black">share</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-3 mb-md-6">
+        <div class="card border-light max-width h-100">
+          <a href="#" class="overflow-hidden rounded-top">
+            <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/9d0ceff5ed470b504331b8d897ea8518b8f163cd/2023web-camp/tool5.png" alt=""></a>
+          <div class="header px-7 mb-auto">
+            <h3 class="fw-bold text-center mt-5 mb-3">Fraud Detection Platform</h3>
+            <p class="text-dark text-left">預防詐騙活動，適用於銀行、金融、電商等。</p>
+          </div>
+          <div class="card-category d-flex justify-content-between border-top border-bottom border-light px-7 py-5">
+            <span class="catergory fw-bold">AI 模型</span>
+            <span class="name">卡卡</span>
+          </div>
+          <div class="card-tag d-flex justify-content-between px-7 py-5">
+            <span class="tag">#客服</span>
+            <a href="#"><span class="material-icons text-black">share</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-3 mb-md-6">
+        <div class="card border-light max-width h-100">
+          <a href="#" class="overflow-hidden rounded-top">
+            <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/9d0ceff5ed470b504331b8d897ea8518b8f163cd/2023web-camp/tool6.png" alt=""></a>
+          <div class="header px-7 mb-auto">
+            <h3 class="fw-bold text-center mt-5 mb-3">Voice Assistant SDK</h3>
+            <p class="text-dark text-left">通過語音控制應用程式、設備，實現多種功能，例如播放音樂、查詢天氣、發送信息等。</p>
+          </div>
+          <div class="card-category d-flex justify-content-between border-top border-bottom border-light px-7 py-5">
+            <span class="catergory fw-bold">AI 模型</span>
+            <span class="name">杰杰</span>
+          </div>
+          <div class="card-tag d-flex justify-content-between px-7 py-5">
+            <span class="tag">#生產力</span>
+            <a href="#"><span class="material-icons text-black">share</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <ul class="pagination">
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""><img src="" alt=""></a></li>
+    </ul>
+  </div>
+  <script src="./bundle.js"></script>
+</body>
+</html>
